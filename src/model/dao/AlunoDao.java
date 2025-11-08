@@ -2,7 +2,9 @@ package model.dao;
 
 import model.entities.Aluno;
 
+import java.util.List;
+
 public interface AlunoDao extends Dao<Aluno>{
-    Aluno buscaPorNome(String nome);
+    List<Aluno> buscaPorNome(String nome);
 
 }
